@@ -1,0 +1,201 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+   text-align: center;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+ }
+    
+p{
+    color: #8f8f8f;
+    
+}
+
+
+/* Heading */
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+
+/* Title */
+
+#title {
+ background-color: #ff4c68;
+ text-align: left;
+
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+.container-fluid {
+ padding: 7% 15%;
+
+
+}
+/* Download Buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.imagine{
+    position: relative;
+}
+.iphone{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+   }
+
+
+
+/* Navigation Bar */
+
+.navbar{
+
+    padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link {
+    
+    font-size: 1.2rem ;
+    font-weight: light;
+
+}
+
+
+
+/* Features */
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position: relative;
+   
+    
+
+}
+.feature-box{
+   
+    padding: 4.5%;
+
+}
+.features-title{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #ef8172;
+    }
+
+.features-text{
+ color: #8f8f8f;
+     
+}
+
+    .features-icons{
+        color: #ef8172;
+        margin-bottom: 1rem;
+        
+        }
+.features-icons:hover{
+color: #ff4c68;
+
+}
+
+/* Testimonial Section */
+#testimonials {
+
+
+background-color: #ef8172  ;
+color: white;
+     
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+
+}
+.testimolial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press{
+    background-color: #ef8172;
+   
+    padding-bottom: 3%;
+
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+
+
+/* Pricing section  */
+#pricing{
+
+    padding: 100px;
+    
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call To Action */
+#cta{
+  
+    background-color: #ff4c68;
+  
+}
+
+
+    
+/* Footer */
+#footer{
+   
+   
+    background-color: #fff;
+}
+.social{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+
+/* Media */
+@media (max-width:1000px){
+    
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+    .imagine{
+        width: 100%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+
